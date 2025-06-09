@@ -70,5 +70,6 @@ with col2:
 st.markdown("👉 Use the sidebar to move between game stages.")
 st.balloons()
 
-st.markdown("<div class='footer'>Made with ❤️ using Python & Streamlit | Rishi's Cricket Arcade</div>", unsafe_allow_html=True)
-st.markdown("</div>", unsafe_allow_html=True)
+t.markdown("""
+
+<style> .team-karthik-footer { position: fixed; bottom: 12px; left: 50%; transform: translateX(-50%); font-size: 18px; color: #e94e77; font-weight: bold; z-index: 999; font-family: sans-serif; } .heart { display: inline-block; animation: pulse 1.2s infinite ease-in-out; } @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.3); } 100% { transform: scale(1); } } </style> <div class="team-karthik-footer"> Team Karthik <span class="heart">❤️</span> </div> """, unsafe_allow_html=True)
